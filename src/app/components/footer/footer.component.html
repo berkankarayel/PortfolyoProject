@@ -1,0 +1,17 @@
+<footer>
+  <div class="footer-content">
+    <div class="social-links">
+      <a *ngFor="let social of socialLinks" 
+         [href]="social.url" 
+         target="_blank" 
+         [title]="social.name">
+        <span class="icon">{{ social.icon }}</span>
+        <span class="name">{{ social.name }}</span>
+      </a>
+    </div>
+    
+    <div class="copyright">
+      <p>&copy; {{ currentYear }} Portfolio. Tüm hakları saklıdır.</p>
+    </div>
+  </div>
+</footer>
