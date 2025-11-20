@@ -12,6 +12,6 @@ export class HeaderComponent {
     { name: 'Hakkımda', link: '#about' },
     { name: 'Yetenekler', link: '#skills' },
     { name: 'Projeler', link: '#projects' },
-    { name: 'İletişim', link: '#contact' }
+    
   ];
 }

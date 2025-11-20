@@ -3,7 +3,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: #34495e;
 }
 
 .hero-content {
@@ -12,10 +12,10 @@ section {
 
 h1 {
   font-size: 3rem;
-  color: #667eea;
+  color: #ecf0f1;
   font-weight: 700;
   margin: 0;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 768px) {

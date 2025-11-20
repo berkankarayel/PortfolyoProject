@@ -1,1 +1,24 @@
-<p>projects works!</p>
+<section id="projects">
+  <div class="projects-container">
+    <h2 class="section-title">Projeler</h2>
+    
+    <div class="projects-grid">
+      <div class="project-card" *ngFor="let project of projects">
+        <div class="project-content">
+          <h3 class="project-title">{{ project.title }}</h3>
+          
+          <div class="project-tags">
+            <span class="tag" *ngFor="let tech of project.technologies">
+              {{ tech }}
+            </span>
+          </div>
+          
+          <button class="detail-btn" (click)="goToDetail(project.id)">
+            <span>Detayları Gör</span>
+            <span class="arrow">→</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
