@@ -200,33 +200,106 @@ section {
   border-radius: 0 8px 8px 0;
 }
 
+@media (max-width: 1024px) {
+  .main-cards {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   section {
-    padding: 3rem 1.5rem;
+    padding: 2rem 1rem;
   }
   
   .section-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.75rem;
   }
   
-  .about-content {
-    padding: 1.5rem;
+  .intro {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 0 0.5rem;
   }
   
-  .info-cards {
-    grid-template-columns: 1fr;
-    gap: 1rem;
+  .main-cards {
+    gap: 1.25rem;
   }
   
   .info-card {
-    padding: 1rem;
+    padding: 1.5rem;
   }
   
-  .description p {
+  .card-title {
+    font-size: 1.3rem;
+  }
+  
+  .info-item {
+    margin-bottom: 1.25rem;
+  }
+  
+  .info-icon {
+    font-size: 1.5rem;
+  }
+  
+  .info-details strong {
+    font-size: 0.95rem;
+  }
+  
+  .info-details p,
+  .social-link {
+    font-size: 0.9rem;
+  }
+  
+  .experience-header strong {
     font-size: 1rem;
   }
   
-  .about-text .intro {
-    font-size: 1.1rem;
+  .experience-date {
+    font-size: 0.85rem;
+  }
+  
+  .experience-role {
+    font-size: 0.95rem;
+  }
+  
+  .experience-desc {
+    font-size: 0.9rem;
+  }
+  
+  .description {
+    margin-top: 1.5rem;
+  }
+  
+  .description p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+  
+  .description .closing {
+    padding: 0.75rem 0.75rem 0.75rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 1.5rem 0.75rem;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .intro {
+    font-size: 0.95rem;
+  }
+  
+  .info-card {
+    padding: 1.25rem;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
   }
 }
