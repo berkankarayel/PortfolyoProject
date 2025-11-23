@@ -1,6 +1,6 @@
 section {
   padding: 4rem 2rem;
-  background: linear-gradient(135deg, #F0FFF4 0%, #E6FFFA 100%);
+  background: var(--bg-gray);
 }
 
 .skills-container {
@@ -24,9 +24,9 @@ section {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 80px;
-  height: 4px;
-  background: linear-gradient(90deg, #4ECDC4, #FFD23F);
+  width: 60px;
+  height: 3px;
+  background: var(--primary-color);
   border-radius: 2px;
 }
 
@@ -38,10 +38,11 @@ section {
 }
 
 .skill-card {
-  background: white;
+  background: var(--bg-white);
   padding: 2rem 1rem;
-  border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 1px solid var(--border-gray);
+  box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,9 +52,9 @@ section {
 }
 
 .skill-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 30px rgba(78, 205, 196, 0.4);
-  border-top: 3px solid #4ECDC4;
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary-color);
 }
 
 .skill-logo {

@@ -1,9 +1,10 @@
 section {
-  min-height: 25vh;
+  min-height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%);
+  background: linear-gradient(135deg, #F9FAFB 0%, #FFFFFF 100%);
+  border-bottom: 1px solid var(--border-gray);
 }
 
 .hero-content {
@@ -12,10 +13,10 @@ section {
 
 h1 {
   font-size: 3rem;
-  color: #ecf0f1;
+  color: var(--text-primary);
   font-weight: 700;
   margin: 0;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: -0.02em;
 }
 
 @media (max-width: 768px) {
