@@ -3,7 +3,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #34495e;
+  background: linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%);
 }
 
 .hero-content {

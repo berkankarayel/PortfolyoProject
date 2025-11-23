@@ -16,12 +16,12 @@
 
 .back-button button {
   background: transparent;
-  border: 2px solid #34495e;
+  border: 2px solid #FF6B35;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   font-size: 1rem;
   font-weight: 600;
-  color: #2c3e50;
+  color: #FF6B35;
   cursor: pointer;
   transition: all 0.3s ease;
   display: flex;
@@ -30,8 +30,9 @@
 }
 
 .back-button button:hover {
-  background: #34495e;
+  background: #FF6B35;
   color: white;
+  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
 }
 
 .arrow {
@@ -64,10 +65,10 @@
 
 .section h2 {
   font-size: 1.5rem;
-  color: #34495e;
+  color: #2c3e50;
   margin: 0 0 1rem 0;
   font-weight: 600;
-  border-bottom: 2px solid #ecf0f1;
+  border-bottom: 3px solid #4ECDC4;
   padding-bottom: 0.5rem;
 }
 
@@ -141,13 +142,13 @@
 }
 
 .tech-tag {
-  background: rgba(52, 73, 94, 0.1);
+  background: rgba(78, 205, 196, 0.15);
   color: #2c3e50;
   padding: 0.5rem 0.75rem;
   border-radius: 6px;
   font-size: 0.85rem;
   font-weight: 600;
-  border: 1px solid rgba(52, 73, 94, 0.2);
+  border: 1px solid rgba(78, 205, 196, 0.4);
 }
 
 .links {
@@ -168,14 +169,14 @@
 }
 
 .link-button.github {
-  background: #2c3e50;
+  background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
   color: white;
 }
 
 .link-button.github:hover {
-  background: #34495e;
+  background: linear-gradient(135deg, #E85A2A 0%, #E8831E 100%);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(44, 62, 80, 0.3);
+  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.4);
 }
 
 .link-button.live {

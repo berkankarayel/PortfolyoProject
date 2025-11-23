@@ -1,5 +1,5 @@
 footer {
-  background: #2c3e50;
+  background: linear-gradient(135deg, #2C3E50 0%, #34495E 100%);
   color: white;
   padding: 2rem 1rem;
   margin-top: auto;
@@ -35,10 +35,10 @@ footer {
 }
 
 .social-links a:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: linear-gradient(135deg, #FF6B35, #4ECDC4);
   transform: translateY(-3px);
-  border-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-color: transparent;
+  box-shadow: 0 5px 15px rgba(255, 107, 53, 0.4);
 }
 
 .icon {

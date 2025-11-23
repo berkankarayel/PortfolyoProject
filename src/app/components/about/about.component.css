@@ -26,7 +26,7 @@ section {
   transform: translateX(-50%);
   width: 80px;
   height: 4px;
-  background: #34495e;
+  background: linear-gradient(90deg, #FF6B35, #4ECDC4);
   border-radius: 2px;
 }
 
@@ -67,7 +67,7 @@ section {
   color: #2c3e50;
   margin-bottom: 1.5rem;
   font-weight: 600;
-  border-bottom: 2px solid #ecf0f1;
+  border-bottom: 3px solid #4ECDC4;
   padding-bottom: 0.75rem;
 }
 
@@ -113,16 +113,17 @@ section {
 }
 
 .social-link {
-  color: #34495e;
+  color: #FF6B35;
   text-decoration: none;
   font-size: 0.95rem;
   transition: color 0.3s ease;
   display: inline-block;
   margin-top: 0.2rem;
+  font-weight: 500;
 }
 
 .social-link:hover {
-  color: #2c3e50;
+  color: #E85A2A;
   text-decoration: underline;
 }
 
@@ -192,10 +193,10 @@ section {
 .description .closing {
   font-style: italic;
   color: #555;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #FF6B35;
   padding-left: 1.5rem;
   margin-top: 2rem;
-  background: #f0f4ff;
+  background: #FFF5F0;
   padding: 1rem 1rem 1rem 1.5rem;
   border-radius: 0 8px 8px 0;
 }
