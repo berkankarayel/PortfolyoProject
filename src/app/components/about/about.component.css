@@ -31,15 +31,24 @@ section {
 }
 
 .intro {
-  font-size: 1.2rem;
-  line-height: 1.8;
+  font-size: 1rem;
+  line-height: 1.7;
   color: #2c3e50;
   margin-bottom: 2.5rem;
   margin-top: 1.5rem;
-  text-align: center;
-  max-width: 900px;
+  text-align: justify;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.intro p {
+  margin-bottom: 0.8rem;
+  font-weight: 400;
+}
+
+.intro p:last-child {
+  margin-bottom: 0;
 }
 
 .main-cards {
@@ -99,6 +108,33 @@ section {
   font-size: 1rem;
   margin-bottom: 0.4rem;
   font-weight: 600;
+}
+
+.social-links {
+  width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.social-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icon-link:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
+}
+
+.social-icon-link svg {
+  width: 32px;
+  height: 32px;
 }
 
 .info-details p {

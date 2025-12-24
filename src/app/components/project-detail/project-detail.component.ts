@@ -37,6 +37,39 @@ export class ProjectDetailComponent implements OnInit {
     },
     {
       id: 2,
+      title: 'Employee Task & Report Management System',
+      description: 'Şirket içi görev, izin ve raporlama süreçlerini merkezi ve güvenli bir yapı altında yöneten enterprise seviye full-stack bir uygulama. Proje, gerçek bir kurumsal senaryo üzerinden geliştirilmiş olup Clean Architecture prensipleri, rol bazlı yetkilendirme, JWT kimlik doğrulama ve ölçeklenebilir mimari esas alınarak tasarlanmıştır. Backend, frontend ve DevOps süreçleri ile production-ready bir yapı sunmaktadır.',
+      technologies: ['ASP.NET Core 8', 'React 18', 'TypeScript', 'MS SQL Server', 'Entity Framework Core', 'Docker', 'Docker Compose', 'Nginx', 'GitHub Actions', 'JWT Authentication', 'Clean Architecture', 'RESTful API', 'CORS', 'Swagger/OpenAPI'],
+      features: [
+        '🏛️ Clean Architecture (Domain, Application, Infrastructure, API katmanları)',
+        '🔐 JWT Authentication ile güvenli kimlik doğrulama',
+        '👥 Role-Based Authorization (Admin, Manager, Employee rolleri)',
+        '⚙️ ASP.NET Core Web API ile RESTful mimari',
+        '⚡ React 18 ve TypeScript ile modern frontend',
+        '📦 Docker ve Docker Compose ile container orchestration',
+        '🌐 Nginx ile production-ready frontend deployment',
+        '🔄 GitHub Actions ile otomatik CI pipeline',
+        '📊 Entity Framework Core Code-First yaklaşım',
+        '📊 MS SQL Server veritabanı yönetimi',
+        '📝 Kapsamlı API dokümantasyonu (Swagger)',
+        '🛡️ CORS politikaları ve güvenlik yapılandırmaları',
+        '📊 Görev takip, izin yönetimi ve raporlama modulleri',
+        '📄 Admin ve kullanıcı dashboard ekranları'
+      ],
+      images: [
+        'assets/images/adminresim1.png',
+        'assets/images/görev yönetimi.png',
+        'assets/images/izin istekleri.png',
+        'assets/images/kart sistemi.png',
+        'assets/images/kullanıcı paneli.png',
+        'assets/images/log.png',
+        'assets/images/userkayıt.png'
+      ],
+      githubLink: 'https://github.com/berkankarayel/EMPLOYEE-TASK-REPORT-MANAGEMENT-SYSTEM',
+      liveLink: '#'
+    },
+    {
+      id: 3,
       title: 'Online Course Platformu',
       description: 'Modern mimari yaklaşımlar ve best practice\'ler uygulanarak geliştirilmekte olan bir online eğitim platformu. Proje, katmanlı mimari, generic repository pattern ve SOLID prensipleri ile tasarlanmıştır. RESTful API standartlarına uygun olarak geliştirilmiş backend ve responsive Angular frontend ile kullanıcı dostu bir arayüz sunmaktadır.',
       technologies: ['.NET Web API', 'Angular', 'MS SQL Server', 'Entity Framework Core', 'AutoMapper', 'LINQ', 'Serilog', 'Middleware', 'Generic Repository Pattern', 'Katmanlı Mimari'],
