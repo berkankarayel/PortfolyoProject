@@ -38,19 +38,19 @@ export class ProjectsComponent {
       id: 5,
       title: 'HTML CSS JavaScript Örnek Projeler',
       image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-      technologies: ['HTML5', 'CSS3', 'JavaScript']
+      technologies: ['HTML5', 'CSS3', 'JavaScript', 'Fetch API']
     },
     {
       id: 6,
       title: 'ASP.NET MVC CV Projesi',
       image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg',
-      technologies: ['ASP.NET', 'MVC', 'C#', 'Bootstrap']
+      technologies: ['ASP.NET MVC', 'Entity Framework', 'SQL Server']
     },
     {
       id: 7,
-      title: 'ADO.NET Müşteri Projesi',
+      title: 'ADO.NET Müşteri Yönetim Projesi',
       image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg',
-      technologies: ['ADO.NET', 'C#', 'SQL Server']
+      technologies: ['C#', 'ADO.NET', 'SQL Server', 'Windows Forms']
     }
   ];
 

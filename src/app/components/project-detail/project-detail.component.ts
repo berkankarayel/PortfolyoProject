@@ -89,7 +89,7 @@ export class ProjectDetailComponent implements OnInit {
       inDevelopment: true
     },
     {
-      id: 3,
+      id: 4,
       title: 'Öğrenci Kurs Yönetim Sistemi',
       description: 'ASP.NET Core MVC ve Entity Framework Core kullanılarak geliştirilmiş, öğrencilerin kurslara kaydolabildiği basit ama öğretici bir kayıt sistemi. Proje, MVC tasarım deseni ve Code-First yaklaşımı ile veritabanı yönetimini öğrenmek için ideal bir örnektir. Razor View yapısı ile dinamik web sayfaları oluşturulmuş ve Bootstrap 5 ile modern bir kullanıcı arayüzü tasarlanmıştır.',
       technologies: ['ASP.NET Core MVC', 'Entity Framework Core', 'PostgreSQL', 'Razor View (cshtml)', 'Bootstrap 5', 'C#', 'LINQ'],
@@ -113,7 +113,7 @@ export class ProjectDetailComponent implements OnInit {
       liveLink: '#'
     },
     {
-      id: 4,
+      id: 5,
       title: 'HTML CSS JavaScript Örnek Projeler',
       description: 'HTML, CSS ve JavaScript teknolojileri kullanılarak geliştirilmiş çeşitli web uygulamaları koleksiyonu. Bu repo, temel web teknolojilerini öğrenmek ve pratikte uygulamak için hazırlanmış 6 farklı proje içermektedir. Projeler, responsive tasarım, localStorage, sessionStorage, fetch API, Promise, async/await gibi modern JavaScript yapılarını içermektedir. Ayrıca modüler kod yapısı ve esnek UI tasarımları ile fonksiyonel ve ölçeklenebilir uygulamalar geliştirilmiştir.',
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'Fetch API', 'LocalStorage', 'SessionStorage', 'Async/Await', 'Responsive Design'],
@@ -138,7 +138,7 @@ export class ProjectDetailComponent implements OnInit {
       liveLink: '#'
     },
     {
-      id: 5,
+      id: 6,
       title: 'ASP.NET MVC CV Projesi',
       description: 'Model-View-Controller (MVC) mimarisini kullanarak geliştirilmiş dinamik bir CV sitesi projesi. Bu proje ile dinamik veri yönetimi, admin paneli ve iletişim entegrasyonu konularında kapsamlı deneyim kazanıldı. Database First yaklaşımı ile veritabanı odaklı geliştirme yapılmış, Entity Framework ORM aracı kullanılarak veri işlemleri gerçekleştirilmiştir. Admin paneli üzerinden tüm içerikler dinamik olarak yönetilebilmektedir.',
       technologies: ['ASP.NET MVC', 'Entity Framework', 'MS SQL Server', 'Database First', 'LINQ', 'HTML5', 'CSS3', 'Bootstrap', 'JavaScript'],
@@ -164,7 +164,7 @@ export class ProjectDetailComponent implements OnInit {
       liveLink: '#'
     },
     {
-      id: 6,
+      id: 7,
       title: 'ADO.NET Müşteri Yönetim Projesi',
       description: 'SQL veritabanı ile bağlantı kurarak müşteri, şehir ve istatistik bilgilerinin dinamik olarak yönetilebildiği bir Windows Forms uygulamasıdır. Uygulama, kullanıcı dostu arayüzü ve güçlü veri işleme özellikleriyle temel veritabanı işlemlerini kolayca gerçekleştirmek için tasarlanmıştır. ADO.NET teknolojisi kullanılarak doğrudan SQL Server ile etkileşim kurulmuş ve veri bağlantı yönetimi sağlanmıştır.',
       technologies: ['C#', 'ADO.NET', 'SQL Server', 'Windows Forms', 'T-SQL'],
